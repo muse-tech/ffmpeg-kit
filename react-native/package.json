@@ -1,5 +1,5 @@
 {
-  "name": "ffmpeg-kit-react-native",
+  "name": "@muse-patched/ffmpeg-kit-react-native",
   "version": "100.0.0",
   "description": "FFmpeg Kit for React Native",
   "main": "src/index",
