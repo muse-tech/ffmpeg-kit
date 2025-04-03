@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   s.subspec 'video' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                              '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'ffmpeg-kit-ios-video', "6.0"
+      ss.resource = 'https://github.com/muse-tech/ffmpeg-kit/releases/download/v6.0-binary-v1/ffmpeg-kit-ios-video.zip'
       ss.ios.deployment_target = '12.1'
   end
 
