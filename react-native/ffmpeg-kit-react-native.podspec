@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.requires_arc      = true
   s.static_framework  = true
 
-  s.source       = { :git => "https://github.com/arthenica/ffmpeg-kit.git", :tag => "react.native.v#{s.version}" }
+  s.source       = { :git => "https://github.com/muse-tech/ffmpeg-kit.git", :tag => "v6.0-binary-v2" }
 
   s.default_subspec   = 'https'
 
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   s.subspec 'video' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                              '**/FFmpegKitReactNativeModule.h'
-      ss.resource = 'https://github.com/muse-tech/ffmpeg-kit/releases/download/v6.0-binary-v1/ffmpeg-kit-ios-video.zip'
+      ss.resource = 'https://github.com/muse-tech/ffmpeg-kit/releases/download/v6.0-binary-v2/ffmpeg-kit-ios-video.zip'
       ss.ios.deployment_target = '12.1'
   end
 
